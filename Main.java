@@ -9,5 +9,6 @@ public class Main {
         System.out.println("Decoding weekday number 4: " + test.decodeWeekday(4));
         System.out.println("Minimal element of array: " + test.getMinValue(test.initArray()));
         System.out.println("Years when 100%: " + test.calculateBankDeposit(100.0).years);
+	System.out.println("calculateSportsman(12.5): " + tmp.calculateSportsman((float) 12.5));
     }
 }
