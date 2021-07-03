@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-	    ArrayVector t0 = new ArrayVectorImpl();
-	    t0.set(2.3, 4.5, 6.7, -9.12);
-	    ArrayVector t1 = new ArrayVectorImpl();
-	    System.out.println("t0: " + Arrays.toString(t0.get()));
+	ArrayVector t0 = new ArrayVectorImpl();
+	t0.set(2.3, 4.5, 6.7, -9.12);
+	ArrayVector t1 = new ArrayVectorImpl();
+	System.out.println("t0: " + Arrays.toString(t0.get()));
         System.out.println("t1: " + Arrays.toString(t1.get()));
         ArrayVector t2 = t0.clone();
         System.out.println("t2: " + Arrays.toString(t2.get()));
