@@ -4,6 +4,8 @@
 Примечание: предполагается, что запрос будет содержать только одно слово SELECT
 */
 
+--ПОЧЕМУ-ТО РЕЗУЛЬТАТ НЕ ВЕРНЫЙ(((
+
 select distinct c.CompanyName,
 
 MIN(UnitPrice * Quantity * (1 - Discount)) 
