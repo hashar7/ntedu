@@ -10,4 +10,4 @@ select SYS_CONNECT_BY_PATH(first_name || ' ' || last_name, '#')
 from employees
 where manager_id is null
 start with employee_id = 110
-connect by prior manager_id = employee_id;
+connect by prior manager_id = employee_id
